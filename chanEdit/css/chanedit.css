@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	width:1280px;
+	height:720px;
+	font-family: "黑体";
+	color:#FFF;
+	background:url(../images/mainbg1.jpg) no-repeat;
+	overflow: hidden;
+}
+
+.title{
+	width:1100px;
+	height:100px;
+	padding-left: 100px;
+	margin-top: 20px;
+}
+.title h1{
+	font-size:24px;
+	height:68px;
+	line-height: 68px;
+}
+.title p{
+	font-size:16px;
+	height: 32px;
+	line-height: 0px
+}
+.edit-wraper{
+	width:1000px;
+	height:510px;
+	border:1px solid #009;
+	margin: 10px auto;
+	background: url(../images/contentbg1.png) no-repeat;
+}
+.edit-wraper .edit-tit{
+	width:920px;
+	height: 60px;
+	font-size:24px;
+	line-height: 60px;
+	padding-left: 80px;
+	position: relative;
+	background:-webkit-linear-gradient(cyan,darkblue); 
+}
+.edit-wraper .edit-tit img{
+	display: block;
+	position: absolute;
+	left:10px;
+	top:-20px;
+}
+#edit_main{
+	width:1000px;
+	height:450px;
+	font-size: 18px;
+}
+.item-head{
+	width:1000px;
+	height:50px;
+	line-height: 50px;
+}
+.item-head div{
+	float: left;
+}
+.item-head div.channum-head{
+	width:100px;
+	text-align: center;
+}
+.item-head div.channame-head{
+	width:450px;
+	margin-left: 50px;
+}
+.item-head div.operate-head{
+	width:400px;
+}
+#chan_list{
+	width:1000px;
+	height:400px;
+	position: relative;
+	overflow: hidden;
+}
+.chan-item{
+	width:1000px;
+	height: 50px;
+	line-height: 50px;
+	z-index: 100;
+	outline: none;
+	position: absolute;
+}
+.chan-item .chan-num{
+	width: 100px;
+	text-align: center;
+	float: left;
+}
+.chan-item .chan-name{
+	width:450px;
+	float: left;
+	margin-left: 50px;
+}
+.chan-item .chan-oper{
+	width:400px;
+	float: left;
+	position: relative;
+	display: none;
+}
+.chan-oper .skip{
+	width:36px;
+	height: 36px;
+	background-image: url(../images/hide1.png);
+	background-size: contain;
+	position: absolute;
+	left:10px; top:7px;
+	background-repeat: no-repeat;
+}
+
+.chan-oper .move{
+	width:36px;
+	height: 36px;
+	background-image: url(../images/move1.png);
+	position: absolute;
+	left:190px; top:7px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.chan-oper .favor{
+	width:36px;
+	height: 36px;
+	position: absolute;
+	left:100px; top:7px;
+	background-image: url(../images/collect1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#itemFocus{
+	width:1000px;
+	height:50px;
+	position: absolute;
+	z-index: -1;
+	background:-webkit-linear-gradient(cyan,blue); 
+}
+
+

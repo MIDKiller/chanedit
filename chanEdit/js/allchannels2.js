@@ -1,0 +1,45 @@
+
+var itemArr = [
+	{
+		"name":"cctv-1",
+		"no":1,
+		"favor":false,
+		"skip":true
+	},
+	{
+		"name":"cctv-2",
+		"no":2,
+		"favor":true,
+		"skip":false
+	},
+	{
+		"name":"cctv-3",
+		"no":3,
+		"favor":false,
+		"skip":true
+	},
+	{
+		"name":"cctv-4",
+		"no":4,
+		"favor":true,
+		"skip":false
+	},
+	{
+		"name":"cctv-5",
+		"no":5,
+		"favor":true,
+		"skip":false
+	},
+	{
+		"name":"cctv-6",
+		"no":6,
+		"favor":false,
+		"skip":false
+	},
+	{
+		"name":"cctv-7",
+		"no":7,
+		"favor":false,
+		"skip":false
+	}
+]

@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+	color:#fff;
+	width:1280px;
+	height:100%;
+	overflow: hidden;
+}
+#menu_wraper {
+	width:260px;
+	height: 720px;
+	position: absolute;
+	background: rgba(0,0,0,0.4);
+}
+#tit{
+	height:60px;
+	font-size:20px;
+	line-height: 40px;
+	padding-left: 40px;
+}
+#chan_list{
+	position: relative;
+	overflow: hidden;
+}
+#itemFocus{
+	position: absolute;
+	left:0px;
+	top:0px;
+	width:260px;
+	height: 50px;
+	background: orangered;
+	z-index: -1;
+	border-radius: 5px;
+}
+#chan_list .chan-item{
+	width:260px;
+	height:50px;
+	font-size: 18px;
+	line-height: 50px;
+	z-index: 100;
+	padding-left: 40px;
+}
